@@ -21,7 +21,7 @@ Metacello new
 
 #SeekerExperiment asClass instrumentSystemForSeeker
 ```
-4. Wait a few moments, until there are no more ProgressBars. If there are no errors, close the playground, ***Save and Exit*** the **Control-Image**.
+4. Wait a few moments until there are no more ProgressBars. If there are no errors, close the playground, ***Save and Exit*** the **Control-Image**.
 5. Now launch the **Seeker-Image**.
 6. Open a Playground. Copy and paste the following code. Select it all, and Do It!
 ```Smalltalk
@@ -48,7 +48,7 @@ Metacello new
 
 #SeekerExperiment asClass instrumentSystemForSeeker
 ```
-7. Wait a few moments, until there are no more ProgressBars. If there are no errors, close the playground, ***Save and Exit*** the **Seeker-Image**.
+7. Wait a few moments until there are no more ProgressBars. If there are no errors, close the playground, ***Save and Exit*** the **Seeker-Image**.
 
 You are ready to start!. 
 
