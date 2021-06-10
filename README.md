@@ -1,8 +1,8 @@
 # Images Creation For Seeker Experiment
-You have been directed here because you were unable to launch the Downloaded Pharo Images for the Seeker Experiment.  
+You have been directed here because you were unable to launch the Downloaded Pharo Images for the Seeker Experiment (Or your images presented a FileSystem writing permission issues).  
 Fear not! For you will succeed by following these simple 7 steps:
 
-1. Open your Pharo Launcher, and create two new Pharo 9.0 images. 
+1. Open your Pharo Launcher, and create two new Pharo 9.0 64bits images. 
    Name them: **Control-Image** and **Seeker-Image** respectively.
 2. Launch the **Control-Image**.
 3. Open a Playground. Copy and paste the following code. Select it all, and Do It!
