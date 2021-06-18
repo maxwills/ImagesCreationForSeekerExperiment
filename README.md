@@ -30,27 +30,10 @@ Metacello new
 6. Open a Playground. Copy and paste the following code. Select it all, and Do It!
 ```Smalltalk
 Metacello new
-    baseline: 'SeekerExperiment';
-    repository: 'github://StevenCostiou/SeekerExperiment:single-task-list-from-files';
-    load.
-
-#SeekerExperiment1 asClass controlOrSeeker: #seeker.
-
-Metacello new
-    baseline: 'Seeker';
-    repository: 'github://maxwills/SeekerDebugger:seeker-xp';
-    load.
-    
-#SeekerDebuggerPresenter asClass showInDebugger: true.
-
-Metacello new
-    baseline: 'SeekerXPOverrides';
-    repository: 'github://maxwills/SeekerXPOverrides:seeker';
-    load.
-
-(IceRepository repositories select: [:r| r name='SeekerXPOverrides']) first discardChanges.
-
-#SeekerExperiment asClass instrumentSystemForSeeker
+	baseline: 'SeekerXPImageCreation';
+	repository: 'github://maxwills/SeekerXPOverrides:seeker';
+	load.
+#SeekerXPImageCreation asClass setupSeekerImage
 ```
 7. Wait a few moments until there are no more ProgressBars. If there are no errors, close the playground, ***Save and Exit*** the **Seeker-Image**.
 
