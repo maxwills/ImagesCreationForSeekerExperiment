@@ -12,18 +12,10 @@ Fear not! For you will succeed by following these simple 7 steps:
 3. Open a Playground. Copy and paste the following code. Select it all, and Do It!
 ```Smalltalk
 Metacello new
-    baseline: 'SeekerExperiment';
-    repository: 'github://StevenCostiou/SeekerExperiment:single-task-list-from-files';
-    load.
-
-Metacello new
-    baseline: 'SeekerXPOverrides';
-    repository: 'github://maxwills/SeekerXPOverrides:control';
-    load.
-
-(IceRepository repositories select: [:r| r name='SeekerXPOverrides']) first discardChanges.
-
-#SeekerExperiment asClass instrumentSystemForSeeker
+	baseline: 'SeekerXPImageCreation';
+	repository: 'github://maxwills/SeekerXPOverrides:control';
+	load.
+#SeekerXPImageCreation asClass setupControlImage
 ```
 4. Wait a few moments until there are no more ProgressBars. If there are no errors, close the playground, ***Save and Exit*** the **Control-Image**.
 5. Now launch the **Seeker-Image**.
