@@ -3,7 +3,7 @@ Having problems with the downloaded Pharo Images? Build them yourself! (You will
 
 Using an ***updated Pharo Launcher*** (latest version) with ***latest VMs***:
 
-## CONTROL IMAGE
+## Control-Image
  1. Create a new **Pharo 9.0 64bits** image, name it **Control**. Launch it, open a Playground, copy & paste the following code and do it.
  ```Smalltalk
 Metacello new
@@ -14,7 +14,7 @@ Metacello new
 ```
  2. Wait a few moments. A notification will popup at the bottom left when the setup is complete. Save the image. The Control-Image is ready to start the experiment. 
 
-## SEEKER IMAGE
+## Seeker-Image
 1. Create a new **Pharo 9.0 64bits** image, name it **Seeker**. Launch it, open a Playground, copy & paste the following code and do it.
 ```Smalltalk
 Metacello new
