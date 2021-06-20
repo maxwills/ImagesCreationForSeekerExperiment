@@ -1,8 +1,12 @@
 # Images Creation For Seeker Experiment
 Having problems with the downloaded Pharo Images? Build them yourself! (You will need both images: Control and Seeker)
 
-Using an ***updated Pharo Launcher*** (latest version) with ***latest VMs***. Update your Pharo 9.0 x64 VM doing this.  
-![img](./images/updatingvms.png)
+## Update the VM
+First, you'll need to update your Pharo 9.0 x64 VM doing this ([As shown in this image](https://drive.google.com/file/d/1x-UUSrTTKNmi_6Gbh39Et_TACUprj8sb/view?usp=sharing)):
+1. In your Pharo Launcher, click the VMs button at the top right.
+2. Select the VM for Pharo 9.0 x64.
+3. Click the Update button in the toolbar.
+
 
 ## Control-Image
  1. Create a new **Pharo 9.0 64bits** image, name it **Control**. Launch it, open a Playground, copy & paste the following code and **Do it!**.
