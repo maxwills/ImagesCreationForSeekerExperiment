@@ -7,6 +7,8 @@ First, you'll need to update your Pharo 9.0 x64 VM doing this ([As shown in this
 2. Select the VM for Pharo 9.0 x64.
 3. Click the Update button in the toolbar.
 
+*The VM is not listed? Try reinstalling your Pharo Launcher*.
+
 
 ## Control-Image
  1. Create a new **Pharo 9.0 64bits** image, name it **Control**. Launch it, open a Playground, copy & paste the following code and **Do it!**.
